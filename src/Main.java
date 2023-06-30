@@ -33,5 +33,38 @@ public class Main {
             System.out.printf("%3d |", c);
         }
         System.out.println("\n");
+        ;
+
+
+        String star ="";
+        for(int c =0; c <5; c++)
+        {
+            for (int i =0; i <c; i++)
+            {
+                System.out.printf("*");
+            }
+            System.out.println();
+        }
+
+
+
+        for(int c =5; c >0; c--)
+        {
+            for (int i=0; i<c; i++)
+            {
+                System.out.printf("*");
+            }
+            System.out.println();
+        }
+
+
+        for(int c =0; c<5 ; c++)
+        {
+            for (int i=0; i<5; i++)
+            {
+                System.out.printf("*");
+            }
+            System.out.println();
+        }
     }
 }
